@@ -1,8 +1,8 @@
 # EXPERIMENT-01-INTERFACTING-DIGITAL-OUTPUT-WITH-EDGE-DEVICE---(RASPBERRYPI-PICO)
-### NAME 
-### DEPARTMENT 
-### ROLL NO 
-### DATE OF EXPERIMENT 
+### NAME: HARSHAVARDHAN.K.B
+### DEPARTMENT: AML
+### ROLL NO : 212224240054
+### DATE OF EXPERIMENT : 24.02.2025
 
 ### AIM
 To interface a digital output device (LED) with the Raspberry Pi Pico and control it using MicroPython.
@@ -40,8 +40,66 @@ Connect the cathode (shorter leg) of the LED to GND (ground).
 
 
 ## PROGRAM (MicroPython)
+LED BLINK
+```
+from machine import Pin
+from utime import sleep
+
+
+led1 = Pin(0, Pin.OUT)
+
+
+while True:
+    led1.toggle()
+    sleep(0.5)
+    
+  
+
 ```
 
+3LED'S BLINK
+```
+from machine import Pin
+from utime import sleep
+
+
+led1 = Pin(0, Pin.OUT)
+led2 = Pin(6, Pin.OUT)
+led3 = Pin(12, Pin.OUT)
+
+while True:
+    led1.toggle()
+    sleep(0.5)
+    
+    led2.toggle()
+    sleep(0.5)
+    
+    led3.toggle()
+    sleep(0.5)
+ ```
+LED WITH BUZZER
+```
+from machine import Pin
+from utime import sleep
+
+
+led1 = Pin(0, Pin.OUT)
+led2 = Pin(6, Pin.OUT)
+led3 = Pin(12, Pin.OUT)
+buzz=Pin(3 ,Pin.OUT)
+while True:
+    led1.toggle()
+    sleep(0.5)
+    buzz.toggle()
+    sleep(0.5)
+    led2.toggle()
+    sleep(0.5)
+    buzz.toggle()
+    sleep(0.5)
+    led3.toggle()
+    sleep(0.5)
+    buzz.toggle()
+    sleep(0.5)
 
  
 
@@ -53,11 +111,16 @@ Connect the cathode (shorter leg) of the LED to GND (ground).
 ### OUPUT  
 
 
-# FIGURE -02 ADD TITILE HERE 
+# FIGURE -02 ADD TITILE HERE
+![image](https://github.com/user-attachments/assets/b0be5a04-8c38-4922-aa40-ded17c0a7f35)
 
-#  FIGURE -03 ADD TITILE HERE 
+
+#  FIGURE -03 ADD TITILE HERE
+![image](https://github.com/user-attachments/assets/df08c434-3a71-4de0-adee-55c5d1062acc)
+
 
 # FIGURE -04 ADD TITLE HERE 
+![image](https://github.com/user-attachments/assets/be42107e-c776-47be-804c-d7275eb9a4fd)
 
 
  
