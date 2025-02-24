@@ -111,15 +111,15 @@ while True:
 ### OUPUT  
 
 
-# FIGURE -02 ADD TITILE HERE
+# FIGURE -02 LED BLINK
 ![image](https://github.com/user-attachments/assets/b0be5a04-8c38-4922-aa40-ded17c0a7f35)
 
 
-#  FIGURE -03 ADD TITILE HERE
+#  FIGURE -03 3 LED'S BLINK
 ![image](https://github.com/user-attachments/assets/df08c434-3a71-4de0-adee-55c5d1062acc)
 
 
-# FIGURE -04 ADD TITLE HERE 
+# FIGURE -04 LED'S with BUZZER
 ![image](https://github.com/user-attachments/assets/be42107e-c776-47be-804c-d7275eb9a4fd)
 
 
